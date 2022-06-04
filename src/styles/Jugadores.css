@@ -1,0 +1,71 @@
+.contenedor-jugadores{
+    display: flex;
+    overflow: auto;
+}
+h2{
+    text-align: center;
+}
+.jugador{
+    display:flex;
+    background: rgb(159,10,0);
+    background: radial-gradient(circle, rgba(159,10,0,1) 24%, rgba(0,69,139,1) 83%); 
+    border-radius: 25px;
+    width: 150px;
+    flex-direction: column;
+    color:white;    
+    align-items: center;
+    box-shadow: 5px 5px 0px 2px rgba(175, 173, 173, 0.2);
+    margin-right: 15px;
+}
+.jugador>img{
+    margin-top: 10px;
+    position:relative;
+    width: 60px;
+    bottom:0px auto;
+    /* margin-left: px; */
+}
+.jugador>h3{
+    position: relative;
+    bottom:10px;
+    margin-bottom:0px;
+    /* padding-bottom:0px auto; */
+    
+}
+.btns{
+    position: relative;
+    display:flex;
+    align-items: center;
+    /* margin-left: 25px; */
+    padding: 10px;
+    bottom: 10px;
+}
+.btn-presente{
+    border-radius: 25px;
+    background-color: green;
+    color: white;
+    border:none;
+    /* border:0.1px solid lightgrey; */
+    font-size: 15px;
+    font-weight: bold;
+    margin-right:1px;
+    /* box-shadow: ; */
+}
+.btn-presente:hover{
+    background-color:rgb(32, 74, 32);
+}
+.btn-ausente{
+    border-radius: 25px;
+    background-color: red;
+    color: white;
+    border:none;
+    font-size: 15px;
+    
+    font-weight: bold;
+    margin-left:1px
+
+    /* box-shadow: ; */
+}
+
+.btn-ausente:hover{
+    background-color: rgb(157, 40, 40);
+}
